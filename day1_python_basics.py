@@ -187,7 +187,9 @@ logging.info("Info: program started")
 logging.warning("Warning: low disk space")
 logging.error("Error: file missing")
 logging.critical("Critical: system failure")
+
 import logging
+
 #7. understanding errors & stack traces  
 ### the below error is intentional only to understand the stack trace``
 logging.basicConfig(level=logging.ERROR)
