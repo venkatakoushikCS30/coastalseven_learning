@@ -121,7 +121,7 @@ for i in range(6):
 for i in range(5):
     pass #pass statement - do nothing
 
-#4. functions
+#5. functions
 ###two types - built-in functions and user-defined functions
 print("Hello World!") #built-in function
 
@@ -150,7 +150,7 @@ def outer(): #nested function
 outer()
 
 
-#4. debugging using print/logging
+#6. debugging using print/logging
 
 ##using print
 
@@ -164,6 +164,8 @@ result = add(10,5)
 print(result) #expected is 15 , but will get 5
 
 ##using logging
+
+
 import logging
 logging.basicConfig(level=logging.DEBUG)  #if level is not provided ; then default will be warning
 def divide(a,b):
@@ -185,8 +187,8 @@ logging.info("Info: program started")
 logging.warning("Warning: low disk space")
 logging.error("Error: file missing")
 logging.critical("Critical: system failure")
-
-#5. understanding errors & stack traces  
+import logging
+#7. understanding errors & stack traces  
 ### the below error is intentional only to understand the stack trace``
 logging.basicConfig(level=logging.ERROR)
 
