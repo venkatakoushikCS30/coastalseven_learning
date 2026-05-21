@@ -1,0 +1,91 @@
+========================================================
+        OLLAMA CUSTOM MODEL SETUP (phi3)
+========================================================
+
+STEP 1: Install Ollama (if not installed)
+----------------------------------------
+Download from:
+https://ollama.com
+
+Verify installation:
+----------------------------------------
+ollama --version
+
+
+STEP 2: Download Base Model
+----------------------------------------
+We will use phi3 (lightweight model)
+
+Command:
+----------------------------------------
+ollama pull phi3
+
+
+STEP 3: Create Custom Model File (Modelfile)
+----------------------------------------
+Create a file named: Modelfile
+
+Paste this inside it:
+
+--------------------------------------------------------
+FROM phi3
+
+SYSTEM """
+You are a senior software engineering tutor.
+Explain concepts in simple English.
+
+Rules:
+- Always give a real-world analogy first
+- Then technical explanation
+- Keep answers under 10 lines
+- Use bullet points when needed
+"""
+
+PARAMETER temperature 0.3
+PARAMETER top_p 0.9
+PARAMETER num_ctx 4096
+--------------------------------------------------------
+
+
+STEP 4: Create Custom Model
+----------------------------------------
+Run this command in the same folder:
+
+ollama create my-phi3-tutor -f Modelfile
+
+
+STEP 5: Run Your Custom Model (Terminal test)
+----------------------------------------
+ollama run my-phi3-tutor
+
+
+STEP 6: Use in Python
+----------------------------------------
+
+import ollama
+
+response = ollama.chat(
+    model="my-phi3-tutor",
+    messages=[
+        {
+            "role": "user",
+            "content": "Explain MVC architecture"
+        }
+    ]
+)
+
+print(response["message"]["content"])
+
+
+========================================================
+BONUS: Useful Commands
+========================================================
+
+List models:
+ollama list
+
+Remove model:
+ollama rm my-phi3-tutor
+
+Show running models:
+ollama ps

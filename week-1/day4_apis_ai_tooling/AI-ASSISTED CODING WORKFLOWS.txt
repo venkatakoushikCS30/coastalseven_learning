@@ -1,0 +1,181 @@
+            AI-ASSISTED CODING WORKFLOWS
+
+1. WHAT IS IT?
+--------------------------------------------------------
+AI-assisted coding is a workflow where AI tools help
+you design, write, debug, test, and improve code faster.
+
+Instead of writing everything manually, you:
+- Think
+- Ask AI
+- Generate code
+- Refine
+- Test
+- Improve with AI
+
+AI acts as:
+- Coding assistant
+- Debugger
+- Reviewer
+- Documentation writer
+
+2. CORE WORKFLOW (STEP-BY-STEP)
+
+STEP 1: Problem Understanding
+--------------------------------------------------------
+Break the problem into small parts.
+
+Prompt example:
+"Break this project into modules and steps"
+
+Result:
+- Architecture
+- Modules
+- API design
+
+--------------------------------------------------------
+
+STEP 2: Project Skeleton Generation
+--------------------------------------------------------
+Ask AI to design structure.
+
+Prompt:
+"Generate folder structure for Flask project"
+
+Result:
+- app.py
+- routes/
+- models/
+- config/
+
+--------------------------------------------------------
+
+STEP 3: Code Generation (Chunk by Chunk)
+--------------------------------------------------------
+Do NOT ask full project at once.
+
+Instead:
+
+Prompt:
+"Write login API using Flask"
+
+Then:
+"Add JWT authentication"
+"Add password hashing"
+
+--------------------------------------------------------
+
+STEP 4: Debugging with AI
+--------------------------------------------------------
+Paste errors into AI.
+
+Prompt:
+"Explain and fix this error:
+<error message>"
+
+AI helps:
+- Identify issue
+- Suggest fix
+- Improve logic
+
+--------------------------------------------------------
+
+STEP 5: Code Improvement (Refactoring)
+--------------------------------------------------------
+Make code better and cleaner.
+
+Prompts:
+- "Refactor this code"
+- "Improve performance"
+- "Make production-ready code"
+
+--------------------------------------------------------
+
+STEP 6: Testing Assistance
+--------------------------------------------------------
+AI generates test cases.
+
+Prompt:
+"Generate pytest test cases for this function"
+
+Result:
+- Unit tests
+- Edge cases
+- Validation tests
+
+--------------------------------------------------------
+
+STEP 7: Documentation Generation
+--------------------------------------------------------
+AI writes documentation.
+
+Prompts:
+- "Generate README file"
+- "Explain this code in comments"
+
+Result:
+- README.md
+- Inline comments
+- API docs
+
+3. ADVANCED WORKFLOW TECHNIQUES
+
+A. Prompt Chaining
+--------------------------------------------------------
+Break tasks into steps:
+
+1. Design architecture
+2. Generate structure
+3. Write code
+4. Optimize
+
+--------------------------------------------------------
+
+B. AI as Code Reviewer
+--------------------------------------------------------
+Prompt:
+"Review this code like a senior engineer"
+
+AI outputs:
+- Bugs
+- Improvements
+- Best practices
+
+--------------------------------------------------------
+
+C. AI Pair Programming
+--------------------------------------------------------
+You + AI work together:
+- You guide logic
+- AI writes repetitive code
+- You validate output
+
+--------------------------------------------------------
+
+D. Iterative Development
+--------------------------------------------------------
+Repeat cycle:
+Build → Test → Fix → Improve
+
+4. TOOLS USED
+
+- Ollama (local LLMs like phi3, llama3)
+- ChatGPT / Gemini (cloud AI)
+- VS Code (coding environment)
+- Postman (API testing)
+- Git (version control)
+
+5. GOLDEN RULES
+
+- Do not rely 100% on AI
+- Always understand generated code
+- Break problems into small prompts
+- Improve iteratively
+- Treat AI as assistant, not replacement
+
+
+6. FINAL FLOW SUMMARY
+
+
+Think → Break problem → Ask AI → Generate code →
+Test → Debug → Refactor → Document → Repeat
