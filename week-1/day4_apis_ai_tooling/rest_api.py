@@ -6,6 +6,7 @@ students = [
     {"id": 1, "name": "Koushik"},
     {"id": 2, "name": "Rahul"}
 ]
+print(type(students))
 
 # -------------------------
 # GET ALL STUDENTS

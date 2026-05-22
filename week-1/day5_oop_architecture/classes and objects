@@ -1,0 +1,12 @@
+#class : blueprint for creating objects
+
+class Student:
+    def __init__(self , name , age): #init constructor
+        self.name = name
+        self.age = age
+    def greet(self): #methods in class
+        print(f"Hello {self.name}")
+
+student1 = Student("koushik" , 22)
+print(student1.name)
+student1.greet()
