@@ -1,0 +1,181 @@
+FRONTEND / BACKEND / DATABASE ARCHITECTURE
+==========================================
+
+
+1. BASIC 3-TIER ARCHITECTURE
+----------------------------
+
+          User
+            ↓
+     +--------------+
+     |  Frontend    |
+     |  (UI Layer)  |
+     +--------------+
+            ↓
+       HTTP Request
+            ↓
+     +--------------+
+     |   Backend    |
+     | (Logic/API)  |
+     +--------------+
+            ↓
+        SQL Query
+            ↓
+     +--------------+
+     |   Database   |
+     | (Data Layer) |
+     +--------------+
+
+
+
+2. FRONTEND RESPONSIBILITIES
+----------------------------
+
++------------------------------+
+|         FRONTEND             |
++------------------------------+
+| HTML / CSS / JavaScript      |
+| React / Angular / Vue        |
+| Streamlit / Gradio           |
++------------------------------+
+| Responsibilities:            |
+| - UI                         |
+| - Forms                      |
+| - Buttons                    |
+| - Display Data               |
+| - Send API Requests          |
++------------------------------+
+
+
+
+3. BACKEND RESPONSIBILITIES
+---------------------------
+
++------------------------------+
+|          BACKEND             |
++------------------------------+
+| FastAPI / Django / Flask     |
+| Node.js / Spring Boot        |
++------------------------------+
+| Responsibilities:            |
+| - API Handling               |
+| - Business Logic             |
+| - Authentication             |
+| - Validation                 |
+| - Database Communication     |
++------------------------------+
+
+
+
+4. DATABASE RESPONSIBILITIES
+----------------------------
+
++------------------------------+
+|          DATABASE            |
++------------------------------+
+| MySQL / PostgreSQL           |
+| MongoDB / SQLite             |
++------------------------------+
+| Responsibilities:            |
+| - Store Data                 |
+| - Retrieve Data              |
+| - Update Data                |
+| - Delete Data                |
++------------------------------+
+
+
+
+5. FASTAPI ARCHITECTURE
+-----------------------
+
+     React / HTML Frontend
+                ↓
+         FastAPI Backend
+                ↓
+      PostgreSQL / MySQL
+
+
+
+6. DJANGO ARCHITECTURE
+----------------------
+
+      Django Templates
+                ↓
+          Django Views
+                ↓
+           Django ORM
+                ↓
+            Database
+
+
+
+7. REQUEST FLOW
+---------------
+
+Frontend
+   ↓
+HTTP Request
+   ↓
+Backend API
+   ↓
+Database Query
+   ↓
+Database Response
+   ↓
+Backend Response
+   ↓
+Frontend Display
+
+
+
+8. MICROSERVICE ARCHITECTURE
+----------------------------
+
+          Frontend
+              ↓
+    +------------------+
+    |   API Gateway    |
+    +------------------+
+      ↓      ↓      ↓
+ +--------+ +--------+ +--------+
+ | Auth   | |Payment | | ML/API |
+ |Service | |Service | |Service |
+ +--------+ +--------+ +--------+
+      ↓         ↓          ↓
+   Databases for each service
+
+
+
+9. MONOLITH ARCHITECTURE
+------------------------
+
++--------------------------------------+
+| Frontend + Backend + Database        |
+| all inside one project/application   |
++--------------------------------------+
+
+
+
+10. MODERN FULL STACK ARCHITECTURE
+----------------------------------
+
+Frontend:
+- React
+
+Backend:
+- FastAPI
+
+Database:
+- PostgreSQL
+
+Architecture:
+
+React UI
+    ↓
+REST API
+    ↓
+FastAPI Server
+    ↓
+SQLAlchemy ORM
+    ↓
+PostgreSQL Database
