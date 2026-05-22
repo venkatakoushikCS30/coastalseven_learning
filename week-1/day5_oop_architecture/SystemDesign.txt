@@ -1,0 +1,262 @@
+===============================
+SYSTEM DESIGN BASICS (CLEAR NOTES)
+===============================
+
+1. HLD vs LLD
+
+HLD (High Level Design)
+- Shows overall system architecture
+- Focus on components (API, DB, services)
+- Explains how system is connected
+- No code details
+
+LLD (Low Level Design)
+- Detailed internal design
+- Focus on classes, methods, logic
+- Used for implementation
+
+Key Difference:
+HLD = System structure
+LLD = Code-level design
+
+--------------------------------
+
+2. Distributed Systems & CAP Theorem
+
+Distributed System:
+- A system where multiple machines work together
+
+CAP Theorem:
+You can choose only 2 out of 3:
+
+C - Consistency:
+- All nodes show same data
+
+A - Availability:
+- System always responds
+
+P - Partition Tolerance:
+- System works even if network breaks
+
+Example:
+- Banking → CP
+- Social Media → AP
+
+--------------------------------
+
+3. Single Point of Failure (SPOF) & Fault Tolerance
+
+SPOF:
+- One component failure breaks entire system
+
+Fault Tolerance:
+- System continues working even after failures
+
+Solution:
+- Use backup servers
+- Replication
+- Redundancy
+
+--------------------------------
+
+4. Rate Limiting
+
+- Controls number of requests a user can make
+- Protects system from overload and abuse
+
+Example:
+- 100 requests per minute per user
+
+Used in:
+- APIs, login systems
+
+--------------------------------
+
+5. APIs & Communication Models
+
+Synchronous:
+- Client waits for response
+- Example: REST API call
+
+Asynchronous:
+- Client does not wait
+- Uses queues/events
+
+--------------------------------
+
+6. REST API & HTTP Methods
+
+REST API:
+- Uses HTTP protocol
+- Stateless (no memory of previous requests)
+
+HTTP Methods:
+
+GET    → Read data
+POST   → Create data
+PUT    → Replace full data
+PATCH  → Update partial data
+DELETE → Remove data
+
+--------------------------------
+
+7. RPC (Remote Procedure Call)
+
+- Calls a function on another system
+- Works like a local function call
+
+Example:
+- gRPC
+
+--------------------------------
+
+8. WebSockets vs Webhooks
+
+WebSockets:
+- Bi-directional (2-way communication)
+- Real-time updates
+- Example: Chat apps, gaming
+
+Webhooks:
+- One-way communication
+- Event-based notifications
+
+--------------------------------
+
+9. Message Queues
+
+Purpose:
+- Handle async communication
+
+Components:
+
+Producer → sends message
+Queue    → stores message
+Consumer → processes message
+Broker   → manages queue system
+
+Examples:
+- Kafka, RabbitMQ
+
+--------------------------------
+
+10. API Gateway
+
+- Single entry point for all requests
+- Routes requests to correct services
+
+Responsibilities:
+- Authentication
+- Rate limiting
+- Logging
+- Request routing
+
+--------------------------------
+
+11. Databases & Storage Models
+
+- Used to store application data
+
+Types:
+
+SQL:
+- Structured data
+- Tables, rows, columns
+
+NoSQL:
+- Flexible schema
+- Unstructured data
+
+--------------------------------
+
+12. NoSQL Databases
+
+Types:
+
+Document DB → MongoDB
+Key-Value   → Redis
+Column DB    → Wide-column storage
+Graph DB     → Relationship data
+
+--------------------------------
+
+13. Database Indexing
+
+- Improves search speed in DB
+- Works like an index in a book
+
+Tradeoff:
+- Faster reads
+- Slower writes (extra storage needed)
+
+--------------------------------
+
+14. Data Replication
+
+- Copying data across multiple servers
+
+Types:
+- Master-Slave
+- Multi-Master
+
+Benefit:
+- High availability
+- Data safety
+
+--------------------------------
+
+15. Database Redundancy
+
+- Extra copies of data for safety
+
+Types:
+- Intentional (backup systems)
+- Unintentional (duplicates/bugs)
+
+--------------------------------
+
+16. Sharding
+
+- Splitting database into smaller parts
+
+Example:
+- A–M users → DB1
+- N–Z users → DB2
+
+Benefit:
+- Better scalability
+
+--------------------------------
+
+17. Scaling
+
+Vertical Scaling:
+- Increase power of single machine (CPU/RAM)
+
+Horizontal Scaling:
+- Add more machines
+
+Modern systems prefer horizontal scaling
+
+--------------------------------
+
+18. Load Balancing
+
+- Distributes traffic across multiple servers
+
+Types:
+- Hardware load balancer
+- Software load balancer
+
+Benefit:
+- Prevents server overload
+
+--------------------------------
+
+19. Round Robin
+
+- Simple load balancing method
+- Requests sent sequentially to servers
+
+Example:
+Server1 → Server2 → Server3 → repeat
