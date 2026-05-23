@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: devscan
+Version: 1.0
+Summary: Local Codebase Health Analyser CLI with AI refactoring suggestions.
+Author: Solo Developer
+Requires-Python: >=3.11
+Requires-Dist: rich>=13.0
+Requires-Dist: requests>=2.31
+Requires-Dist: python-dotenv>=1.0
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
