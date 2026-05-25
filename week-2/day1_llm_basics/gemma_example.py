@@ -1,7 +1,7 @@
 from google import genai
 
 # Pass the API key directly into the Client
-client = genai.Client(api_key="AIzaSyBZgigen0YB8TFp4-Ph5BICPk0BOlXQNHs")
+client = genai.Client(api_key="API_KEY")
 
 # Call the Gemma 4 model
 response = client.models.generate_content(
