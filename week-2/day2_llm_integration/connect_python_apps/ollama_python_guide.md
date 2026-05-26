@@ -259,32 +259,6 @@ Frontend → Backend (FastAPI/Flask) → Ollama API → LLM Model
 
 ---
 
-## Next Steps to Learn
-
-1. **RAG Systems** & Embeddings
-2. **Vector Databases** (Pinecone, Weaviate)
-3. **LangChain** integration
-4. **AI Agents** & tool calling
-5. **Fine-tuning** LLMs
-6. **Advanced Prompt Engineering**
-7. **FastAPI AI Deployment**
-8. **Local AI Architectures**
-
----
-
-## Quick Reference
-
-```python
-# Basic imports
-import requests
-import json
-
-# Ollama base URL
-BASE_URL = "http://localhost:11434"
-
-# Common models
-MODELS = ["gemma3:1b", "mistral", "llama2"]
-
 # Generate endpoint
 requests.post(f"{BASE_URL}/api/generate", json={...})
 
