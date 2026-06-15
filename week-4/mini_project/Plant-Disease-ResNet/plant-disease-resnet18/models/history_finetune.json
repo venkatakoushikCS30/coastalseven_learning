@@ -1,0 +1,33 @@
+{
+  "mode": "finetune",
+  "best_epoch": 2,
+  "best_val_acc": 0.9275,
+  "best_val_loss": 0.214,
+  "final_train_acc": 0.8841,
+  "final_train_loss": 0.3501,
+  "epochs_run": 2,
+  "elapsed_sec": 1371.5,
+  "best_checkpoint": "C:\\Users\\koushik\\Desktop\\Mini_Project_DL\\plant-disease-resnet18\\models\\best_finetune.pth",
+  "history": {
+    "train_loss": [
+      0.5828,
+      0.3501
+    ],
+    "train_acc": [
+      0.8079,
+      0.8841
+    ],
+    "val_loss": [
+      0.2727,
+      0.214
+    ],
+    "val_acc": [
+      0.9087,
+      0.9275
+    ],
+    "lr": [
+      0.0001,
+      0.0001
+    ]
+  }
+}
