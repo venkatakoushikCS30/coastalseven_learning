@@ -1,0 +1,49 @@
+Billing and Insurance Guidelines
+This document outlines the standard operating procedures and patient guidelines regarding financial inquiries, insurance claims, and billing processes. It is designed to serve as a comprehensive reference for both patients and administrative staff.
+
+---
+
+### 1. Accepted Insurance Providers
+Our facility processes claims and accepts coverage from the following primary provider, in accordance with our current network agreements:
+* LIC (Life Insurance Corporation) - We accept all major health policies under LIC, including comprehensive health plans, corporate group policies, and specialized covers.
+Note: Patients with other providers must utilize the Self-Pay policy outlined below and seek independent reimbursement from their respective insurers.
+
+---
+
+### 2. Copayment and Deductible Policies
+- Copayments: Due immediately at the time of service, prior to the appointment. The exact amount is determined by the patient's specific LIC policy tier.
+- Deductibles: Patients are responsible for 100% of service costs until their annual LIC deductible threshold is met. Our billing system tracks this via direct integration with the LIC portal.
+- Coinsurance: Billed post-visit once the Explanation of Benefits (EOB) is received from LIC, typically representing a percentage (e.g., 20%) of the total allowed charges.
+
+---
+
+### 3. Self-Pay Policies
+For patients without active LIC coverage or those electing to pay strictly out-of-pocket, we offer a structured Self-Pay program designed to provide transparent and fair pricing:
+* A 15% discount is automatically applied to all standard procedural rates for accounts paid in full at the time of service.
+* Good Faith Estimates for major procedures will be provided prior to treatment, outlining expected costs, though final charges may vary slightly based on acute medical necessity during the procedure.
+
+---
+
+### 4. Billing and Invoicing Process
+Our standard billing cycle follows a strict resolution track to ensure timely processing for both the clinic and the patient:
+1. Claim Submission: Within 48 hours of the medical service, our centralized billing department submits the coded claim directly to LIC.
+2. Explanation of Benefits (EOB): Once LIC processes the claim (typically within 14-21 business days), both the medical facility and the patient receive an EOB detailing the covered portions and any contractual adjustments.
+3. Patient Invoicing: Any remaining patient-responsibility balance (such as coinsurance or non-covered services) is invoiced to the patient. Payment is due within 30 days of the invoice issuance date.
+4. Late Notices: A grace period of 15 days is provided, after which a 2% late fee may be applied to the outstanding balance.
+
+---
+
+### 5. Payment Plans and Financial Assistance
+We understand that unexpected medical expenses can be a significant burden. For outstanding patient balances exceeding ₹10,000, we offer flexible, zero-interest installment plans.
+* Plans can be extended up to 6 months depending on the total balance.
+* To enroll, patients must contact the financial assistance office to set up an auto-draft agreement prior to their initial invoice due date.
+* Hardship waivers are available on a case-by-case basis and require the submission of a financial declaration form.
+
+---
+
+### 6. Billing Department Contact Details
+For any invoice disputes, payment plan setups, LIC claim inquiries, or general financial questions, please reach out to our dedicated financial counseling team:
+* Email: billing-support@healthcareproject.local
+* Phone: +91-800-555-0199
+* Hours of Operation: Monday - Friday, 9:00 AM to 5:00 PM IST
+* Physical Office: Administrative Wing, Suite 4B

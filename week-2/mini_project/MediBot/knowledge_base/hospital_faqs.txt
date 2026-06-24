@@ -1,0 +1,42 @@
+Hospital Name: MediAssist Clinic & Hospital
+Location: 123 Health Care Boulevard, Medical District
+General Operating Hours: Monday to Friday: 8:00 AM - 8:00 PM, Saturday: 9:00 AM - 5:00 PM, Sunday: Closed (Emergency services open 24/7)
+Emergency Phone Number: +1 (555) 911-3000
+General Inquiry Phone Number: +1 (555) 100-2000
+
+---
+
+### DEPARTMENTS & SPECIALISTS
+1. Cardiology: Focuses on heart health, coronary artery disease, heart failure, and blood pressure.
+   - Lead Specialist: Dr. Sarah Vance
+   - Timings: Mon, Wed, Fri: 9:00 AM - 1:00 PM
+2. Pediatrics: Healthcare for infants, children, and adolescents.
+   - Lead Specialist: Dr. Robert Patel
+   - Timings: Mon to Sat: 10:00 AM - 4:00 PM
+3. Neurology: Brain, spine, and nervous system disorders (migraines, epilepsy, neuropathy).
+   - Lead Specialist: Dr. Elena Rostova
+   - Timings: Tue, Thu: 1:00 PM - 6:00 PM
+4. Dermatology: Skin, hair, and nail treatments, acne, eczema, and skin cancer screenings.
+   - Lead Specialist: Dr. James Cole
+   - Timings: Mon, Thu: 2:00 PM - 7:00 PM
+5. General Medicine: General health screenings, flu, colds, vaccinations, and chronic disease management.
+   - Available daily during operating hours.
+
+---
+
+### APPOINTMENT BOOKING FAQ
+- How can I book an appointment?
+  To book an appointment, please type 'book an appointment' or ask me to schedule one. A booking request form will pop up where you can fill in your details (name, email, phone, and requested department) so our admin team can schedule your slot.
+- What should I bring to my first appointment?
+  Please bring a valid photo ID, your insurance card, list of current medications, and any recent laboratory or scan reports.
+- What is the cancellation policy?
+  Please cancel or reschedule appointments at least 24 hours in advance to avoid a cancellation fee.
+
+---
+
+### HEALTH AND SYMPTOM GUIDANCE (DISCLAIMER: Always seek professional medical advice)
+- Headache / Migraine: Head pain can be caused by stress, dehydration, lack of sleep, or sinus issues. Precautions: drink plenty of water, rest in a dark room, avoid screens. If accompanied by sudden numbness, difficulty speaking, or severe neck stiffness, seek emergency care immediately.
+- Fever / Body Pain: Typically a sign that the body is fighting an infection (e.g., flu or viral fever). Precautions: rest, stay hydrated, monitor temperature. Seek medical help if fever exceeds 103°F (39.4°C) or lasts more than 3 days.
+- Sore Throat / Cough: Often viral (common cold). Precautions: gargle with warm salt water, drink warm fluids, use a humidifier. Consult a doctor if you experience difficulty breathing, swallowing, or if symptoms persist for over a week.
+- Indigestion / Stomach Ache: Often due to diet, gas, or mild gastritis. Precautions: eat bland foods, avoid spicy or greasy meals, stay hydrated. If pain is severe, localized in the lower right abdomen (potential appendicitis), or accompanied by vomiting/fever, seek urgent care.
+- General Prevention: Eat a balanced diet, exercise at least 30 minutes daily, get 7-8 hours of sleep, wash hands regularly, and stay up to date with vaccinations.

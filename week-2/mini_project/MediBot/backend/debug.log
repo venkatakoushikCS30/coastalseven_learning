@@ -1,0 +1,157 @@
+
+--- 2026-05-29 10:59:30.062175 ---
+Query: fever, User: doctor1 (ID: 2)
+  [services.py] FAISS_AVAILABLE: True
+  [services.py] query_embedding generated: True
+  [services.py] FAISS index loaded. ntotal: 5, metadata keys: [1, 5, 2, 3, 4]
+  [services.py] FAISS index.search completed. indices: [2 5 4 3 1], distances: [43656.71  43687.42  43878.32  44034.938 45348.805]
+Results successfully returned: 2 items
+
+--- 2026-05-29 11:00:45.444515 ---
+Query: cold, User: koushik (ID: 3)
+  [services.py] FAISS_AVAILABLE: True
+  [services.py] query_embedding generated: True
+  [services.py] FAISS index loaded. ntotal: 5, metadata keys: [1, 5, 2, 3, 4]
+  [services.py] FAISS index.search completed. indices: [4 5 3 2 1], distances: [48175.652 48215.695 48256.703 48937.984 50000.105]
+Results successfully returned: 2 items
+
+--- 2026-05-29 11:00:52.340859 ---
+Query: col, User: koushik (ID: 3)
+  [services.py] FAISS_AVAILABLE: True
+
+--- 2026-05-29 11:00:52.709320 ---
+Query: co, User: koushik (ID: 3)
+  [services.py] FAISS_AVAILABLE: True
+
+--- 2026-05-29 11:00:54.049710 ---
+Query: cough, User: koushik (ID: 3)
+  [services.py] FAISS_AVAILABLE: True
+  [services.py] query_embedding generated: True
+  [services.py] FAISS index loaded. ntotal: 5, metadata keys: [1, 5, 2, 3, 4]
+  [services.py] FAISS index.search completed. indices: [4 5 2 3 1], distances: [48081.79  48307.207 48918.484 48922.43  49444.387]
+Results successfully returned: 2 items
+  [services.py] query_embedding generated: True
+  [services.py] FAISS index loaded. ntotal: 5, metadata keys: [1, 5, 2, 3, 4]
+  [services.py] FAISS index.search completed. indices: [4 5 2 3 1], distances: [48937.914 49606.773 49658.387 49736.086 50528.207]
+Results successfully returned: 2 items
+  [services.py] query_embedding generated: True
+  [services.py] FAISS index loaded. ntotal: 5, metadata keys: [1, 5, 2, 3, 4]
+  [services.py] FAISS index.search completed. indices: [4 5 2 3 1], distances: [40830.703 41951.055 42057.766 42300.008 43737.812]
+Results successfully returned: 2 items
+
+--- 2026-05-29 11:01:06.674475 ---
+Query: fever, User: koushik (ID: 3)
+  [services.py] FAISS_AVAILABLE: True
+  [services.py] query_embedding generated: True
+  [services.py] FAISS index loaded. ntotal: 5, metadata keys: [1, 5, 2, 3, 4]
+  [services.py] FAISS index.search completed. indices: [2 5 4 3 1], distances: [43656.71  43687.42  43878.32  44034.938 45348.805]
+Results successfully returned: 2 items
+  [services.py] FAISS_AVAILABLE: True
+  [services.py] query_embedding generated: True
+
+--- 2026-05-29 11:03:27.289891 ---
+Query: feve, User: koushik (ID: 3)
+  [services.py] FAISS_AVAILABLE: True
+
+--- 2026-05-29 11:03:27.496264 ---
+Query: fever, User: koushik (ID: 3)
+  [services.py] FAISS_AVAILABLE: True
+  [services.py] query_embedding generated: True
+  [services.py] query_embedding generated: True
+  [services.py] FAISS index loaded. ntotal: 3, metadata keys: ['__version__', 1, 2, 3]
+  [services.py] FAISS index.search completed. indices: [2 3 1], distances: [1.8367443 1.8493081 1.9012959]
+  [services.py] FAISS_AVAILABLE: True
+  [services.py] query_embedding generated: True
+  [services.py] FAISS index loaded. ntotal: 5, metadata keys: ['__version__', 1, 2, 3, 4, 5]
+  [services.py] FAISS index.search completed. indices: [2 3 4 5 1], distances: [1.8367443 1.8493081 1.8565024 1.8694004 1.9012959]
+
+--- 2026-05-29 11:14:19.042607 ---
+Query: fever, User: koushik (ID: 3)
+  [services.py] Hybrid search triggered for query 'fever' (doctor_id=3)
+  [services.py] FAISS search raw results - indices: [2 3 4 5 1], distances: [1.8367443 1.8493081 1.8565024 1.8694004 1.9012959]
+  [services.py] Hybrid search returned 2 items: [('venkat', 0.95), ('koushik', 0.48699517250061036)]
+Results successfully returned: 2 items
+
+--- 2026-05-29 11:15:18.215493 ---
+Query: cold, User: koushik (ID: 3)
+  [services.py] Hybrid search triggered for query 'cold' (doctor_id=3)
+  [services.py] FAISS search raw results - indices: [3 4 2 5 1], distances: [2.005498  2.0169168 2.0374537 2.068519  2.0745041]
+  [services.py] Hybrid search returned 2 items: [('koushik', 0.95), ('venkat', 0.92)]
+Results successfully returned: 2 items
+
+--- 2026-05-29 11:15:25.851310 ---
+Query: fevre, User: koushik (ID: 3)
+  [services.py] Hybrid search triggered for query 'fevre' (doctor_id=3)
+
+--- 2026-05-29 11:15:27.016095 ---
+Query: fever, User: koushik (ID: 3)
+  [services.py] Hybrid search triggered for query 'fever' (doctor_id=3)
+  [services.py] FAISS search raw results - indices: [4 3 2 5 1], distances: [1.8958466 1.9255501 1.9291855 1.9580669 1.9601841]
+  [services.py] Hybrid search returned 1 items: [('koushik', 0.40830678939819337)]
+Results successfully returned: 1 items
+  [services.py] FAISS search raw results - indices: [2 3 4 5 1], distances: [1.8367443 1.8493081 1.8565024 1.8694004 1.9012959]
+  [services.py] Hybrid search returned 2 items: [('venkat', 0.95), ('koushik', 0.48699517250061036)]
+Results successfully returned: 2 items
+
+--- 2026-05-29 11:15:33.131202 ---
+Query: f, User: koushik (ID: 3)
+  [services.py] Hybrid search triggered for query 'f' (doctor_id=3)
+  [services.py] FAISS search raw results - indices: [2 3 4 5 1], distances: [1.9425931 1.9594238 1.9632123 1.9639245 1.9742374]
+  [services.py] Hybrid search returned 2 items: [('venkat', 0.95), ('koushik', 0.88)]
+Results successfully returned: 2 items
+
+--- 2026-05-29 11:15:38.746969 ---
+Query: cough, User: koushik (ID: 3)
+  [services.py] Hybrid search triggered for query 'cough' (doctor_id=3)
+  [services.py] FAISS search raw results - indices: [4 2 3 5 1], distances: [1.7604382 1.8029575 1.8099982 1.8179126 1.8683574]
+  [services.py] Hybrid search returned 2 items: [('venkat', 0.92), ('koushik', 0.6791235923767089)]
+Results successfully returned: 2 items
+
+--- 2026-05-29 11:15:52.863726 ---
+Query: vi, User: koushik (ID: 3)
+  [services.py] Hybrid search triggered for query 'vi' (doctor_id=3)
+
+--- 2026-05-29 11:15:53.214962 ---
+Query: vir, User: koushik (ID: 3)
+  [services.py] Hybrid search triggered for query 'vir' (doctor_id=3)
+
+--- 2026-05-29 11:15:53.680633 ---
+Query: viral, User: koushik (ID: 3)
+  [services.py] Hybrid search triggered for query 'viral' (doctor_id=3)
+  [services.py] FAISS search raw results - indices: [2 4 3 5 1], distances: [1.9347367 1.9432685 1.9438603 1.953723  1.9602349]
+  [services.py] Hybrid search returned 1 items: [('venkat', 0.95)]
+Results successfully returned: 1 items
+  [services.py] FAISS search raw results - indices: [4 3 2 5 1], distances: [2.0662594 2.0665238 2.0680916 2.091615  2.091774 ]
+  [services.py] Hybrid search returned 1 items: [('venkat', 0.95)]
+Results successfully returned: 1 items
+  [services.py] FAISS search raw results - indices: [3 2 4 5 1], distances: [1.9295435 1.9486701 1.9744718 1.9937012 2.0155466]
+  [services.py] Hybrid search returned 1 items: [('venkat', 0.95)]
+Results successfully returned: 1 items
+
+--- 2026-05-29 11:16:02.568952 ---
+Query: bo, User: koushik (ID: 3)
+  [services.py] Hybrid search triggered for query 'bo' (doctor_id=3)
+
+--- 2026-05-29 11:16:04.027584 ---
+Query: body pain, User: koushik (ID: 3)
+  [services.py] Hybrid search triggered for query 'body pain' (doctor_id=3)
+  [services.py] FAISS search raw results - indices: [4 2 3 5 1], distances: [2.057581  2.0940285 2.095802  2.1039634 2.1220803]
+  [services.py] Hybrid search returned 1 items: [('venkat', 0.92)]
+Results successfully returned: 1 items
+  [services.py] FAISS search raw results - indices: [3 2 5 1 4], distances: [1.5287694 1.5416352 1.5839891 1.5946891 1.636396 ]
+  [services.py] Hybrid search returned 2 items: [('venkat', 0.92), ('koushik', 0.8)]
+Results successfully returned: 2 items
+
+--- 2026-05-29 11:48:59.358277 ---
+Query: cou, User: koushik (ID: 3)
+  [services.py] Hybrid search triggered for query 'cou' (doctor_id=3)
+
+--- 2026-05-29 11:48:59.798905 ---
+Query: cough, User: koushik (ID: 3)
+  [services.py] Hybrid search triggered for query 'cough' (doctor_id=3)
+  [services.py] FAISS search raw results - indices: [4 2 3 5 1], distances: [1.7604382 1.8029575 1.8099982 1.8179126 1.8683574]
+  [services.py] Hybrid search returned 2 items: [('venkat', 0.92), ('koushik', 0.6791235923767089)]
+Results successfully returned: 2 items
+  [services.py] FAISS search raw results - indices: [2 4 3 5 1], distances: [2.1000743 2.1113534 2.1116889 2.1278744 2.1528883]
+  [services.py] Hybrid search returned 1 items: [('venkat', 0.92)]
+Results successfully returned: 1 items

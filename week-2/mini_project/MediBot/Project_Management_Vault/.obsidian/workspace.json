@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "3e5786aabcb3b666",
+    "type": "split",
+    "children": [
+      {
+        "id": "321c03cd2765a492",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a8c58dbd25992626",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02_Backend/AI_Agent_App.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "AI_Agent_App"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2ec2c08ff656a06a",
+    "type": "split",
+    "children": [
+      {
+        "id": "14c0bf2afc5d5ad5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "91159bace854a3a9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "5ecc9f9458103dd5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c5a1721f60f07187",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "197b5058d9875742",
+    "type": "split",
+    "children": [
+      {
+        "id": "b81ca0cdc6eeba98",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "20fad7441b3a289e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "05_Workflows/Development_Workflow.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Development_Workflow"
+            }
+          },
+          {
+            "id": "e94a2fa518ba4a25",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "05_Workflows/Development_Workflow.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Development_Workflow"
+            }
+          },
+          {
+            "id": "181a428c54e47fbc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "8009c8a80d084581",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "bad8d290f8157db4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "05_Workflows/Development_Workflow.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Development_Workflow"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "a8c58dbd25992626",
+  "lastOpenFiles": [
+    "02_Backend/Backend_Overview.md",
+    "01_Architecture/SDLC.md",
+    "01_Architecture/System_Architecture.md",
+    "02_Backend/AI_Agent_App.md",
+    "02_Backend/Authentication_App.md",
+    "05_Workflows/Development_Workflow.md",
+    "04_Knowledge_Base/RAG_Knowledge_Base.md",
+    "03_Frontend/Frontend_Overview.md",
+    "06_Reference/Abbreviations_and_Glossary.md",
+    "00_Dashboard.md"
+  ]
+}

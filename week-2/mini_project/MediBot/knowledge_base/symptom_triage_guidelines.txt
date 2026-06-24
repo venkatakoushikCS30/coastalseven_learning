@@ -1,0 +1,44 @@
+Symptom Triage Guidelines
+
+CRITICAL MEDICAL DISCLAIMER:
+The information contained in this document is strictly for general guidance and preliminary triage purposes. It does not replace professional medical advice, diagnosis, or treatment. If you or someone else is experiencing a life-threatening medical emergency, call your local emergency services immediately or proceed to the nearest emergency department. Do not delay seeking professional medical care based on the contents of this document.
+
+---
+
+### 1. Emergency Care (Immediate Action Required)
+Direct patients to the nearest Emergency Room or instruct them to call emergency services immediately for any conditions threatening life, limb, or permanent health.
+
+* Chest Pain: Any sudden, severe, crushing, or squeezing chest pain. This is especially critical if the pain radiates to the arm, neck, or jaw, or is accompanied by sweating, nausea, lightheadedness, or shortness of breath.
+* Severe Shortness of Breath: Inability to catch a breath, gasping for air, severe wheezing unresponsive to rescue inhalers, or any bluish discoloration (cyanosis) of the lips, face, or nail beds.
+* Severe Allergic Reactions (Anaphylaxis): Rapid onset of swelling in the face, lips, tongue, or throat; difficulty swallowing or speaking; sudden and severe drop in blood pressure; or a rapid, weak pulse.
+* Pediatric Fevers (Infants under 3 months): Any fever of 100.4°F (38.0°C) or higher in an infant younger than 3 months requires immediate emergency evaluation.
+
+---
+
+### 2. Urgent Care (Requires Prompt Attention)
+Direct patients to an Urgent Care facility for conditions that are not life-threatening but require prompt medical attention (usually within 12-24 hours) to prevent complications or relieve severe discomfort.
+
+* Minor Burns (Moderate Severity): Second-degree burns (characterized by redness, blistering, and significant pain) that are larger than 3 inches in diameter, or any burn located on sensitive areas such as the face, hands, feet, groin, or over a major joint.
+* Severe Sprains and Suspected Fractures: Severe joint pain, extreme swelling, visible deformity, or a complete inability to bear weight on the affected limb.
+* Pediatric Fevers (Older Infants/Children): A fever of 102°F (38.9°C) or higher in children older than 3 months, particularly if accompanied by unusual lethargy, prolonged crying, or if the fever does not respond to over-the-counter fever-reducing medications.
+
+---
+
+### 3. Clinic Visit (Schedule an Appointment)
+Direct patients to schedule a standard appointment with their primary care provider for conditions that need evaluation but are stable enough to wait a few days.
+
+* Lingering Sprains: Mild to moderate sprains or strains where the patient can bear some weight, but the pain or swelling does not significantly improve after 48-72 hours of home care.
+* Persistent Mild Allergic Reactions: Localized, non-spreading rashes, mild hives, or persistent seasonal allergy symptoms that do not impair breathing but are causing ongoing discomfort.
+* General Illness Follow-up: Lingering coughs, mild earaches, or symptoms of minor respiratory infections that have not resolved within a week but are not rapidly worsening.
+
+---
+
+### 4. Home Care (Self-Care and Monitoring)
+Advise self-care for minor, self-limiting conditions that can be safely managed at home with over-the-counter (OTC) remedies, basic first aid, and watchful waiting.
+
+* Minor Burns (First-Degree): Superficial burns featuring mild redness and pain (similar to a mild sunburn) covering a small area with unbroken skin.
+  - Action: Run cool (not ice-cold) water over the area for 10-15 minutes, apply aloe vera or a soothing ointment, and use OTC pain relievers as needed.
+* Mild Sprains/Strains: Minor tweaks where full mobility is retained and weight-bearing is possible with only mild discomfort.
+  - Action: Implement the R.I.C.E. protocol—Rest, Ice (20 minutes at a time), Compression (wrap lightly), and Elevation.
+* Mild Pediatric Fevers: Fevers under 102°F (38.9°C) in children older than 3 months who are otherwise alert, active, taking fluids well, and showing normal skin color.
+  - Action: Encourage plenty of fluids, dress the child lightly, and administer weight-appropriate doses of OTC pediatric fever reducers only if the child is uncomfortable. Monitor closely for any changes in behavior or worsening symptoms.
