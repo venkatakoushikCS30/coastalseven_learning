@@ -1,0 +1,33 @@
+text,intent,label_id
+partial refund for damaged item please,refund_request,8
+can i get a copy of my last receipt?,billing_payment,2
+browser extension conflicts with site,technical_support,12
+remove my saved payment for renewal,subscription_cancel,11
+how to downgrade instead of cancelling?,subscription_cancel,11
+ingredients list for this supplement,product_info,7
+notifications stopped working,technical_support,12
+warranty registration steps,warranty_claim,13
+can you integrate with salesforce?,feature_request,4
+how do i return an item?,return_exchange,9
+can you support sso login?,feature_request,4
+how do i contact customer support?,contact_support,3
+session expired immediately after login,account_login,1
+how do i change my credit card on file?,billing_payment,2
+proof of purchase for warranty,warranty_claim,13
+return window for online purchases,return_exchange,9
+software version included with purchase,product_info,7
+cancel account and unsubscribe everything,account_delete,0
+how do i reset my password?,password_reset,6
+what are the specs of this laptop?,product_info,7
+opening hours for boston branch,hours_location,5
+where is my order?,shipping_status,10
+reset email went to spam folder,password_reset,6
+my new password is not being accepted,password_reset,6
+live chat with representative please,contact_support,3
+permanently deactivate my profile,account_delete,0
+refund processing time for international orders,refund_request,8
+weekend hours for customer service,hours_location,5
+login page spins forever and never loads,account_login,1
+order shipped but not received yet,shipping_status,10
+need urgent help with my account,contact_support,3
+shipping label created but not picked up,shipping_status,10

@@ -1,0 +1,211 @@
+text,intent
+I can't log into my account,account_login
+Login keeps failing with invalid credentials,account_login
+Why am I locked out of my account?,account_login
+Unable to sign in after password change,account_login
+My account says access denied when I try to login,account_login
+How do I recover access to my account?,account_login
+Sign in button does nothing on the website,account_login
+Two-factor authentication code not working,account_login
+I forgot which email I used to register,account_login
+Session expired immediately after login,account_login
+Can't authenticate with Google sign-in,account_login
+Login page spins forever and never loads,account_login
+Account locked after too many failed attempts,account_login
+Why does login redirect me back to the homepage?,account_login
+Help me get back into my dashboard,account_login
+How do I reset my password?,password_reset
+Password reset email never arrived,password_reset
+Reset link expired before I could use it,password_reset
+I forgot my password and need a new one,password_reset
+Can't change password in account settings,password_reset
+Reset password page shows an error,password_reset
+Did not receive password recovery email,password_reset
+How long is the password reset link valid?,password_reset
+My new password is not being accepted,password_reset
+Need to reset password for my work account,password_reset
+Password reset link goes to a 404 page,password_reset
+How do I update my password securely?,password_reset
+Reset email went to spam folder,password_reset
+Password requirements are confusing,password_reset
+I want to set a stronger password,password_reset
+Where can I view my invoices?,billing_payment
+My credit card payment failed,billing_payment
+How do I update my billing address?,billing_payment
+Why was I charged twice this month?,billing_payment
+Can I get a copy of my last receipt?,billing_payment
+Payment method declined at checkout,billing_payment
+How do I change my credit card on file?,billing_payment
+What payment methods do you accept?,billing_payment
+Billing cycle starts on which date?,billing_payment
+I need an itemized bill for my purchase,billing_payment
+Tax was added incorrectly to my order,billing_payment
+How do I download past invoices?,billing_payment
+My subscription renewal charge looks wrong,billing_payment
+Do you support PayPal payments?,billing_payment
+Invoice PDF is not downloading,billing_payment
+I want a refund for my last order,refund_request
+How long do refunds take to process?,refund_request
+Can I get my money back for this purchase?,refund_request
+Refund status still shows pending,refund_request
+I was charged but never received the product,refund_request
+Request full refund for duplicate order,refund_request
+Partial refund for damaged item please,refund_request
+When will my refund appear on my card?,refund_request
+Refund denied — I want to appeal,refund_request
+How do I initiate a refund request?,refund_request
+I cancelled but was not refunded yet,refund_request
+Refund only credited store credit,refund_request
+Need refund confirmation email,refund_request
+"Product not as described, want refund",refund_request
+Refund processing time for international orders,refund_request
+How do I cancel my subscription?,subscription_cancel
+I want to stop auto-renewal,subscription_cancel
+Cancel my premium plan immediately,subscription_cancel
+Will I lose access if I cancel today?,subscription_cancel
+Steps to unsubscribe from monthly billing,subscription_cancel
+Cancel trial before it converts to paid,subscription_cancel
+How to downgrade instead of cancelling?,subscription_cancel
+I thought I cancelled but was charged again,subscription_cancel
+Cancel family plan subscription,subscription_cancel
+Do I get a refund if I cancel mid-cycle?,subscription_cancel
+Remove my saved payment for renewal,subscription_cancel
+Cancel annual subscription early,subscription_cancel
+Unsubscribe from marketing emails too,subscription_cancel
+Account still shows active after cancellation,subscription_cancel
+How to pause subscription instead of cancel,subscription_cancel
+Where is my order?,shipping_status
+Track my shipment please,shipping_status
+Shipping status stuck on processing,shipping_status
+When will my package arrive?,shipping_status
+Delivery delayed beyond estimated date,shipping_status
+Tracking number shows no updates,shipping_status
+Order shipped but not received yet,shipping_status
+How do I change my shipping address?,shipping_status
+Package marked delivered but I didn't get it,shipping_status
+International shipping taking too long,shipping_status
+Can I expedite shipping on my order?,shipping_status
+Split shipment — only one box arrived,shipping_status
+Courier says address issue,shipping_status
+Need updated ETA for my delivery,shipping_status
+Shipping label created but not picked up,shipping_status
+How do I return an item?,return_exchange
+Can I exchange for a different size?,return_exchange
+Return window for online purchases,return_exchange
+Print return shipping label,return_exchange
+Exchange product for different color,return_exchange
+Return policy for opened items,return_exchange
+Where do I drop off my return?,return_exchange
+Return rejected — what are my options?,return_exchange
+How long until exchange ships?,return_exchange
+Return shipping cost deducted from refund,return_exchange
+Need RMA number for my return,return_exchange
+Can I return a gift without receipt?,return_exchange
+Exchange size M for size L,return_exchange
+"Return label expired, need a new one",return_exchange
+Restocking fee on returns?,return_exchange
+What are the specs of this laptop?,product_info
+Is this product compatible with Mac?,product_info
+Does the bundle include the charger?,product_info
+What's the warranty on this model?,product_info
+Ingredients list for this supplement,product_info
+Dimensions and weight of the desk,product_info
+Difference between Pro and Standard plan,product_info
+Is this item in stock near me?,product_info
+Material used in this jacket,product_info
+Battery life for this device,product_info
+Software version included with purchase,product_info
+Compare these two product models,product_info
+Does it support wireless charging?,product_info
+Age recommendation for this toy,product_info
+What's included in the box?,product_info
+App crashes on startup,technical_support
+Getting error 500 when saving,technical_support
+Feature not working after latest update,technical_support
+Integration with Slack is broken,technical_support
+Sync failed between devices,technical_support
+Can't upload files larger than 10MB,technical_support
+Dashboard loads blank white screen,technical_support
+API returns authentication error,technical_support
+Export to CSV produces empty file,technical_support
+Notifications stopped working,technical_support
+Browser extension conflicts with site,technical_support
+Mobile app won't connect to server,technical_support
+Database connection timeout error,technical_support
+Help debugging installation failure,technical_support
+Performance is extremely slow today,technical_support
+Can you add dark mode?,feature_request
+Request export to Excel format,feature_request
+Would love a mobile app for iOS,feature_request
+Please add two-factor authentication,feature_request
+Suggestion: bulk edit for records,feature_request
+Can you integrate with Salesforce?,feature_request
+Need scheduled report emails,feature_request
+Add support for multiple languages,feature_request
+Feature idea: custom dashboard widgets,feature_request
+Please improve search filters,feature_request
+Request offline mode capability,feature_request
+Add webhook support for events,feature_request
+Would like team collaboration features,feature_request
+Suggest adding calendar sync,feature_request
+Can you support SSO login?,feature_request
+What are your store hours?,hours_location
+Nearest location to downtown Chicago,hours_location
+Are you open on public holidays?,hours_location
+Find a pickup location near me,hours_location
+Weekend hours for customer service,hours_location
+Which cities have physical stores?,hours_location
+Holiday schedule for support team,hours_location
+Drive-through hours at Main Street,hours_location
+Is the warehouse open on Saturdays?,hours_location
+Contact hours for phone support,hours_location
+Store locator not showing my city,hours_location
+Closing time today?,hours_location
+Opening hours for Boston branch,hours_location
+Do you offer curbside pickup hours?,hours_location
+Support chat availability times,hours_location
+I need to speak with a human agent,contact_support
+How do I contact customer support?,contact_support
+Phone number for billing department,contact_support
+Live chat with representative please,contact_support
+Escalate my issue to a supervisor,contact_support
+Email address for technical help,contact_support
+Schedule a callback from support,contact_support
+Connect me to sales team,contact_support
+Support ticket not getting responses,contact_support
+Best way to reach someone quickly?,contact_support
+Contact form submission failed,contact_support
+Need urgent help with my account,contact_support
+Who handles enterprise support?,contact_support
+Support hours for phone calls,contact_support
+Can I book a demo with your team?,contact_support
+How do I file a warranty claim?,warranty_claim
+Product broke within warranty period,warranty_claim
+Warranty registration steps,warranty_claim
+Is accidental damage covered?,warranty_claim
+Warranty claim status check,warranty_claim
+Extended warranty purchase options,warranty_claim
+Proof of purchase for warranty,warranty_claim
+Repair or replace under warranty?,warranty_claim
+Warranty void if I opened the device?,warranty_claim
+How long is the manufacturer warranty?,warranty_claim
+Claim rejected — need review,warranty_claim
+International warranty coverage,warranty_claim
+Submit photos for warranty assessment,warranty_claim
+Warranty transfer to new owner,warranty_claim
+Out-of-warranty repair cost estimate,warranty_claim
+How do I delete my account permanently?,account_delete
+Remove all my personal data,account_delete
+GDPR data deletion request,account_delete
+Close account and erase history,account_delete
+Delete account but keep purchase records?,account_delete
+Account deletion confirmation email,account_delete
+How long until account is fully deleted?,account_delete
+Cancel account and unsubscribe everything,account_delete
+Remove profile and all saved preferences,account_delete
+Right to be forgotten request,account_delete
+Delete duplicate account I created,account_delete
+Will deletion cancel my subscription?,account_delete
+Export data before deleting account,account_delete
+Account still visible after deletion request,account_delete
+Permanently deactivate my profile,account_delete

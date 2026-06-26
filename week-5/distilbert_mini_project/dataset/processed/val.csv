@@ -1,0 +1,33 @@
+text,intent,label_id
+api returns authentication error,technical_support,12
+what payment methods do you accept?,billing_payment,2
+suggestion: bulk edit for records,feature_request,4
+store locator not showing my city,hours_location,5
+print return shipping label,return_exchange,9
+"return label expired, need a new one",return_exchange,9
+feature idea: custom dashboard widgets,feature_request,4
+warranty transfer to new owner,warranty_claim,13
+unsubscribe from marketing emails too,subscription_cancel,11
+who handles enterprise support?,contact_support,3
+delivery delayed beyond estimated date,shipping_status,10
+best way to reach someone quickly?,contact_support,3
+is this item in stock near me?,product_info,7
+sync failed between devices,technical_support,12
+invoice pdf is not downloading,billing_payment,2
+need updated eta for my delivery,shipping_status,10
+drive-through hours at main street,hours_location,5
+nearest location to downtown chicago,hours_location,5
+i cancelled but was not refunded yet,refund_request,8
+what's the warranty on this model?,product_info,7
+unable to sign in after password change,account_login,1
+sign in button does nothing on the website,account_login,1
+i was charged but never received the product,refund_request,8
+i want to set a stronger password,password_reset,6
+my account says access denied when i try to login,account_login,1
+i thought i cancelled but was charged again,subscription_cancel,11
+reset link expired before i could use it,password_reset,6
+account deletion confirmation email,account_delete,0
+return rejected — what are my options?,return_exchange,9
+delete duplicate account i created,account_delete,0
+out-of-warranty repair cost estimate,warranty_claim,13
+will i lose access if i cancel today?,subscription_cancel,11

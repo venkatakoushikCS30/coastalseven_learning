@@ -1,0 +1,34 @@
+{
+  "id2label": {
+    "0": "account_delete",
+    "1": "account_login",
+    "2": "billing_payment",
+    "3": "contact_support",
+    "4": "feature_request",
+    "5": "hours_location",
+    "6": "password_reset",
+    "7": "product_info",
+    "8": "refund_request",
+    "9": "return_exchange",
+    "10": "shipping_status",
+    "11": "subscription_cancel",
+    "12": "technical_support",
+    "13": "warranty_claim"
+  },
+  "label2id": {
+    "account_delete": 0,
+    "account_login": 1,
+    "billing_payment": 2,
+    "contact_support": 3,
+    "feature_request": 4,
+    "hours_location": 5,
+    "password_reset": 6,
+    "product_info": 7,
+    "refund_request": 8,
+    "return_exchange": 9,
+    "shipping_status": 10,
+    "subscription_cancel": 11,
+    "technical_support": 12,
+    "warranty_claim": 13
+  }
+}

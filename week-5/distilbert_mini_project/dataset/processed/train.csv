@@ -1,0 +1,147 @@
+text,intent,label_id
+can't authenticate with google sign-in,account_login,1
+refund only credited store credit,refund_request,8
+when will my package arrive?,shipping_status,10
+how do i update my password securely?,password_reset,6
+find a pickup location near me,hours_location,5
+close account and erase history,account_delete,0
+cancel family plan subscription,subscription_cancel,11
+how do i update my billing address?,billing_payment,2
+two-factor authentication code not working,account_login,1
+can i book a demo with your team?,contact_support,3
+delete account but keep purchase records?,account_delete,0
+return policy for opened items,return_exchange,9
+request offline mode capability,feature_request,4
+do you offer curbside pickup hours?,hours_location,5
+steps to unsubscribe from monthly billing,subscription_cancel,11
+suggest adding calendar sync,feature_request,4
+mobile app won't connect to server,technical_support,12
+return shipping cost deducted from refund,return_exchange,9
+please improve search filters,feature_request,4
+submit photos for warranty assessment,warranty_claim,13
+payment method declined at checkout,billing_payment,2
+help me get back into my dashboard,account_login,1
+login keeps failing with invalid credentials,account_login,1
+my credit card payment failed,billing_payment,2
+why was i charged twice this month?,billing_payment,2
+password requirements are confusing,password_reset,6
+account still visible after deletion request,account_delete,0
+compare these two product models,product_info,7
+shipping status stuck on processing,shipping_status,10
+courier says address issue,shipping_status,10
+claim rejected — need review,warranty_claim,13
+tax was added incorrectly to my order,billing_payment,2
+did not receive password recovery email,password_reset,6
+would like team collaboration features,feature_request,4
+why does login redirect me back to the homepage?,account_login,1
+billing cycle starts on which date?,billing_payment,2
+does it support wireless charging?,product_info,7
+when will my refund appear on my card?,refund_request,8
+how do i download past invoices?,billing_payment,2
+which cities have physical stores?,hours_location,5
+need refund confirmation email,refund_request,8
+difference between pro and standard plan,product_info,7
+how do i file a warranty claim?,warranty_claim,13
+how do i cancel my subscription?,subscription_cancel,11
+remove all my personal data,account_delete,0
+can i exchange for a different size?,return_exchange,9
+please add two-factor authentication,feature_request,4
+what's included in the box?,product_info,7
+need rma number for my return,return_exchange,9
+battery life for this device,product_info,7
+request full refund for duplicate order,refund_request,8
+package marked delivered but i didn't get it,shipping_status,10
+can't change password in account settings,password_reset,6
+does the bundle include the charger?,product_info,7
+i need to speak with a human agent,contact_support,3
+phone number for billing department,contact_support,3
+right to be forgotten request,account_delete,0
+track my shipment please,shipping_status,10
+split shipment — only one box arrived,shipping_status,10
+escalate my issue to a supervisor,contact_support,3
+export data before deleting account,account_delete,0
+getting error 500 when saving,technical_support,12
+can't upload files larger than 10mb,technical_support,12
+add support for multiple languages,feature_request,4
+material used in this jacket,product_info,7
+do i get a refund if i cancel mid-cycle?,subscription_cancel,11
+holiday schedule for support team,hours_location,5
+"product not as described, want refund",refund_request,8
+remove profile and all saved preferences,account_delete,0
+schedule a callback from support,contact_support,3
+i need an itemized bill for my purchase,billing_payment,2
+do you support paypal payments?,billing_payment,2
+need scheduled report emails,feature_request,4
+support chat availability times,hours_location,5
+where do i drop off my return?,return_exchange,9
+cancel my premium plan immediately,subscription_cancel,11
+database connection timeout error,technical_support,12
+support ticket not getting responses,contact_support,3
+contact form submission failed,contact_support,3
+help debugging installation failure,technical_support,12
+how long is the password reset link valid?,password_reset,6
+how long do refunds take to process?,refund_request,8
+refund denied — i want to appeal,refund_request,8
+reset password page shows an error,password_reset,6
+international shipping taking too long,shipping_status,10
+connect me to sales team,contact_support,3
+international warranty coverage,warranty_claim,13
+account locked after too many failed attempts,account_login,1
+product broke within warranty period,warranty_claim,13
+age recommendation for this toy,product_info,7
+is accidental damage covered?,warranty_claim,13
+app crashes on startup,technical_support,12
+password reset link goes to a 404 page,password_reset,6
+why am i locked out of my account?,account_login,1
+how long until account is fully deleted?,account_delete,0
+i want a refund for my last order,refund_request,8
+tracking number shows no updates,shipping_status,10
+can i return a gift without receipt?,return_exchange,9
+i forgot my password and need a new one,password_reset,6
+where can i view my invoices?,billing_payment,2
+email address for technical help,contact_support,3
+how do i recover access to my account?,account_login,1
+feature not working after latest update,technical_support,12
+dimensions and weight of the desk,product_info,7
+contact hours for phone support,hours_location,5
+need to reset password for my work account,password_reset,6
+can i expedite shipping on my order?,shipping_status,10
+password reset email never arrived,password_reset,6
+my subscription renewal charge looks wrong,billing_payment,2
+can i get my money back for this purchase?,refund_request,8
+would love a mobile app for ios,feature_request,4
+request export to excel format,feature_request,4
+cancel trial before it converts to paid,subscription_cancel,11
+i can't log into my account,account_login,1
+will deletion cancel my subscription?,account_delete,0
+restocking fee on returns?,return_exchange,9
+how long is the manufacturer warranty?,warranty_claim,13
+dashboard loads blank white screen,technical_support,12
+how do i initiate a refund request?,refund_request,8
+is the warehouse open on saturdays?,hours_location,5
+refund status still shows pending,refund_request,8
+account still shows active after cancellation,subscription_cancel,11
+how do i delete my account permanently?,account_delete,0
+export to csv produces empty file,technical_support,12
+repair or replace under warranty?,warranty_claim,13
+is this product compatible with mac?,product_info,7
+are you open on public holidays?,hours_location,5
+integration with slack is broken,technical_support,12
+exchange size m for size l,return_exchange,9
+warranty claim status check,warranty_claim,13
+performance is extremely slow today,technical_support,12
+support hours for phone calls,contact_support,3
+i forgot which email i used to register,account_login,1
+add webhook support for events,feature_request,4
+warranty void if i opened the device?,warranty_claim,13
+how do i change my shipping address?,shipping_status,10
+how long until exchange ships?,return_exchange,9
+how to pause subscription instead of cancel,subscription_cancel,11
+closing time today?,hours_location,5
+can you add dark mode?,feature_request,4
+what are your store hours?,hours_location,5
+extended warranty purchase options,warranty_claim,13
+exchange product for different color,return_exchange,9
+gdpr data deletion request,account_delete,0
+cancel annual subscription early,subscription_cancel,11
+i want to stop auto-renewal,subscription_cancel,11
