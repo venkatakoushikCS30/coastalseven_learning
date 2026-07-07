@@ -1,0 +1,42 @@
+# --- Core web / API ---
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-multipart==0.0.20
+
+# --- Config / validation ---
+pydantic[email]==2.10.3
+pydantic-settings==2.7.0
+python-dotenv==1.0.1
+email-validator==2.2.0
+
+# --- Database ---
+SQLAlchemy==2.0.36
+
+# --- Gradio UI ---
+gradio==5.9.1
+
+# --- Image / CV ---
+numpy==1.26.4
+opencv-python==4.10.0.84
+Pillow==11.0.0
+
+# --- OCR ---
+# PaddleOCR pulls PaddlePaddle as a runtime dep. Pin compatible wheels per platform.
+paddleocr==2.9.1
+paddlepaddle==2.6.2
+
+# --- Notebook runner (loads .ipynb OCR engines) ---
+nbclient==0.10.2
+nbformat==5.10.4
+
+# --- TrOCR / Transformers / Torch ---
+transformers==4.47.1
+torch==2.5.1
+sentencepiece==0.2.0
+
+# --- Logging / utils ---
+rich==13.9.4
+
+# --- Testing (added in later phases but pinned early) ---
+pytest==8.3.4
+httpx==0.28.1
