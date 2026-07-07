@@ -1,0 +1,256 @@
+[
+    {
+        "intent": "track_order",
+        "user": "Where is my package?",
+        "response": "I'd be happy to help you track your order. Could you please provide me with your order number so I can look up the shipping status for you?"
+    },
+    {
+        "intent": "track_order",
+        "user": "Can you tell me the status of my delivery?",
+        "response": "Of course! Please share your order number or the email address associated with your account, and I'll check the delivery status right away."
+    },
+    {
+        "intent": "track_order",
+        "user": "Has my order shipped yet?",
+        "response": "Let me check that for you. Could you provide your order number? I'll pull up the latest shipping information immediately."
+    },
+    {
+        "intent": "track_order",
+        "user": "I want to track my shipment.",
+        "response": "Absolutely! Please share your order number and I'll provide you with the real-time tracking details including estimated delivery date."
+    },
+    {
+        "intent": "track_order",
+        "user": "When will my item arrive?",
+        "response": "I understand you're eager to receive your order. Please provide your order number and I'll look up the expected delivery date for you."
+    },
+    {
+        "intent": "track_order",
+        "user": "Is my delivery out for delivery today?",
+        "response": "Let me check the current status of your shipment. Could you share your order number so I can see if it's out for delivery?"
+    },
+    {
+        "intent": "track_order",
+        "user": "I never received my package.",
+        "response": "I'm sorry to hear that. Let me investigate this for you right away. Could you please provide your order number so I can check the delivery confirmation details?"
+    },
+    {
+        "intent": "track_order",
+        "user": "Give me the tracking number.",
+        "response": "Sure! Please share your order number and I'll retrieve the tracking number and carrier information for you."
+    },
+    {
+        "intent": "track_order",
+        "user": "Find my package.",
+        "response": "I'll help you locate your package. Please provide your order number or tracking ID and I'll check the latest status with our shipping partner."
+    },
+    {
+        "intent": "track_order",
+        "user": "Check order status.",
+        "response": "Happy to help! Please provide me with your order number and I'll pull up the complete status including shipping and delivery details."
+    },
+
+    {
+        "intent": "refund_request",
+        "user": "I want my money back.",
+        "response": "I understand your frustration. I can help you initiate a refund. Could you please share your order number and the reason for the refund so I can process it quickly?"
+    },
+    {
+        "intent": "refund_request",
+        "user": "How do I return this item?",
+        "response": "I'll guide you through our return process. You can initiate a return within 30 days of delivery. Would you like me to generate a prepaid return shipping label for you?"
+    },
+    {
+        "intent": "refund_request",
+        "user": "This is defective, I need a refund.",
+        "response": "I'm really sorry about the defective item. We take quality very seriously. I'll process a full refund for you right away. Could you share your order number?"
+    },
+    {
+        "intent": "refund_request",
+        "user": "Can I get a refund?",
+        "response": "Yes, absolutely. Our refund policy covers returns within 30 days of delivery. Please share your order number and I'll check your eligibility and start the process."
+    },
+    {
+        "intent": "refund_request",
+        "user": "What is your return policy?",
+        "response": "Our return policy allows returns within 30 days of delivery for a full refund. Items must be in their original packaging. Would you like me to start a return for a specific order?"
+    },
+    {
+        "intent": "refund_request",
+        "user": "I am not happy with this purchase, refund me.",
+        "response": "I'm sorry to hear you're not satisfied. Customer satisfaction is our priority. Let me process a refund for you. Could you provide your order number?"
+    },
+    {
+        "intent": "refund_request",
+        "user": "Initiate a return.",
+        "response": "I'll get that started for you. Please share your order number and I'll generate a prepaid return label and initiate the refund process."
+    },
+    {
+        "intent": "refund_request",
+        "user": "Where do I ship the return?",
+        "response": "Once I generate a return label for you, it will include the return address. Please share your order number and I'll email you the prepaid label with full instructions."
+    },
+    {
+        "intent": "refund_request",
+        "user": "The item arrived broken.",
+        "response": "I sincerely apologize for that. Damaged items qualify for an immediate full refund or free replacement. Which would you prefer? Please also share your order number."
+    },
+    {
+        "intent": "refund_request",
+        "user": "Cancel and refund.",
+        "response": "I'll cancel your order and process the refund immediately. Could you please provide your order number? The refund will appear in your account within 5-7 business days."
+    },
+
+    {
+        "intent": "speak_to_human",
+        "user": "I need to talk to a person.",
+        "response": "I completely understand. Let me connect you to a live customer service representative right away. Please hold for just a moment while I transfer you."
+    },
+    {
+        "intent": "speak_to_human",
+        "user": "Connect me to an agent.",
+        "response": "Of course. I'm transferring you to one of our customer service specialists now. Your estimated wait time is under 2 minutes. Thank you for your patience."
+    },
+    {
+        "intent": "speak_to_human",
+        "user": "Speak to a representative.",
+        "response": "I'll connect you with a human representative right away. Let me transfer your conversation along with the details so you don't have to repeat yourself."
+    },
+    {
+        "intent": "speak_to_human",
+        "user": "I want to talk to a real human.",
+        "response": "Absolutely, I understand. Let me transfer you to a live agent who can assist you further. Your conversation history will be shared so they have full context."
+    },
+    {
+        "intent": "speak_to_human",
+        "user": "Human operator please.",
+        "response": "Connecting you to a live operator now. Please stay on the line. A customer service agent will be with you shortly."
+    },
+    {
+        "intent": "speak_to_human",
+        "user": "Let me speak to customer service.",
+        "response": "I'm routing you to our customer service team now. They'll be able to help you with anything I couldn't. Thank you for your patience."
+    },
+    {
+        "intent": "speak_to_human",
+        "user": "Transfer me to a live agent.",
+        "response": "Transferring you now. A live agent will pick up your conversation shortly. I've included a summary of our conversation so they're up to speed."
+    },
+    {
+        "intent": "speak_to_human",
+        "user": "I hate talking to bots.",
+        "response": "I understand your preference. Let me connect you with a human agent right away. They'll take great care of you. Transferring now."
+    },
+    {
+        "intent": "speak_to_human",
+        "user": "Get me a human.",
+        "response": "Right away. I'm transferring you to a live representative. Your estimated wait time is under 2 minutes. Thank you for your patience."
+    },
+    {
+        "intent": "speak_to_human",
+        "user": "Customer support agent.",
+        "response": "I'll connect you with a customer support agent immediately. Please hold for a moment while I transfer your conversation."
+    },
+
+    {
+        "intent": "product_info",
+        "user": "Does this come in blue?",
+        "response": "Great question! Let me check the available color options for you. Could you please share the product name or ID so I can look up the specific variants?"
+    },
+    {
+        "intent": "product_info",
+        "user": "What are the dimensions of this product?",
+        "response": "I'd be happy to provide the exact dimensions. Could you share the product name or link? I'll pull up the complete specifications for you."
+    },
+    {
+        "intent": "product_info",
+        "user": "Is this compatible with Mac?",
+        "response": "Let me check the compatibility details for you. Could you share the product name? I'll verify the system requirements and let you know if it works with macOS."
+    },
+    {
+        "intent": "product_info",
+        "user": "Tell me more about this item.",
+        "response": "I'd love to help! Could you share the product name or link? I'll provide you with the full details including features, specifications, and customer reviews."
+    },
+    {
+        "intent": "product_info",
+        "user": "What material is this made of?",
+        "response": "Great question about the materials. Could you share the product name or ID? I'll look up the exact material composition and care instructions for you."
+    },
+    {
+        "intent": "product_info",
+        "user": "How long is the battery life?",
+        "response": "I'll check the battery specifications for you. Could you share the product name? I'll provide the rated battery life and any power-saving tips."
+    },
+    {
+        "intent": "product_info",
+        "user": "Does it have a warranty?",
+        "response": "Most of our products come with a manufacturer's warranty. Could you share the product name? I'll look up the specific warranty terms and coverage details."
+    },
+    {
+        "intent": "product_info",
+        "user": "What are the technical specs?",
+        "response": "I'll pull up the complete technical specifications for you. Please share the product name or ID and I'll provide all the details including dimensions, weight, and features."
+    },
+    {
+        "intent": "product_info",
+        "user": "Is it waterproof?",
+        "response": "Let me verify the water resistance rating for you. Could you share the product name? I'll check the IP rating and let you know exactly what level of water protection it offers."
+    },
+    {
+        "intent": "product_info",
+        "user": "Product details please.",
+        "response": "Of course! Please share the product name, link, or ID and I'll provide you with a comprehensive overview including features, pricing, and availability."
+    },
+
+    {
+        "intent": "cancel_order",
+        "user": "I need to cancel my order.",
+        "response": "I can help you with that. Could you please provide your order number? If the order hasn't shipped yet, I'll cancel it immediately and process a full refund."
+    },
+    {
+        "intent": "cancel_order",
+        "user": "Can I stop the shipment?",
+        "response": "I'll check the shipment status right away. If it hasn't left our warehouse yet, I can stop it. Could you please share your order number?"
+    },
+    {
+        "intent": "cancel_order",
+        "user": "I changed my mind, cancel it.",
+        "response": "No problem at all. Please share your order number and I'll cancel it right away. If payment was already processed, a full refund will be issued within 5-7 business days."
+    },
+    {
+        "intent": "cancel_order",
+        "user": "Please cancel order number 12345.",
+        "response": "I'll cancel order number 12345 for you right away. Let me verify the order details and process the cancellation. You'll receive a confirmation email shortly."
+    },
+    {
+        "intent": "cancel_order",
+        "user": "I don't want this anymore.",
+        "response": "Understood. I'll process the cancellation for you. Could you share your order number? If the item has already shipped, I can arrange a free return pickup instead."
+    },
+    {
+        "intent": "cancel_order",
+        "user": "Abort my purchase.",
+        "response": "I'll take care of that immediately. Please provide your order number and I'll cancel the purchase and initiate a refund to your original payment method."
+    },
+    {
+        "intent": "cancel_order",
+        "user": "I accidentally ordered this.",
+        "response": "No worries, accidental orders happen! Please share your order number and I'll cancel it right away before it ships. You won't be charged."
+    },
+    {
+        "intent": "cancel_order",
+        "user": "Remove this from my orders.",
+        "response": "I'll remove that order for you. Could you provide the order number? I'll cancel it and send you a confirmation email once it's been processed."
+    },
+    {
+        "intent": "cancel_order",
+        "user": "Cancel shipment.",
+        "response": "I'll attempt to cancel the shipment immediately. Please share your order number so I can check if it's still in our warehouse and stop it before dispatch."
+    },
+    {
+        "intent": "cancel_order",
+        "user": "Stop my order.",
+        "response": "I'm on it. Please provide your order number and I'll stop the order from processing further. A full refund will be issued if payment was already taken."
+    }
+]

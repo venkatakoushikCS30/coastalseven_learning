@@ -1,0 +1,41 @@
+# ── Fine-tuned model weights (large binary files) ──
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+*.ckpt
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Virtual environment ──
+venv/
+env/
+.venv/
+
+# ── IDE / Editor ──
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS files ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Jupyter / Kaggle ──
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Logs & temp ──
+logs/
+*.log

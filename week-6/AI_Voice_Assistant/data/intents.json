@@ -1,0 +1,73 @@
+{
+    "intents": [
+        {
+            "label": "greeting",
+            "examples": [
+                "hello", "hi", "hey", "good morning", "good evening",
+                "what's up", "howdy", "greetings"
+            ]
+        },
+        {
+            "label": "farewell",
+            "examples": [
+                "bye", "goodbye", "see you", "take care", "later",
+                "good night", "see you later"
+            ]
+        },
+        {
+            "label": "set_alarm",
+            "examples": [
+                "set an alarm for 7 AM", "wake me up at 6",
+                "alarm at 8 o'clock", "set a reminder for 5 PM",
+                "remind me at noon"
+            ]
+        },
+        {
+            "label": "play_music",
+            "examples": [
+                "play some music", "play a song", "play rock music",
+                "put on some jazz", "play my playlist",
+                "I want to listen to music"
+            ]
+        },
+        {
+            "label": "weather",
+            "examples": [
+                "what's the weather", "is it going to rain",
+                "temperature today", "weather forecast",
+                "how's the weather outside", "will it be sunny"
+            ]
+        },
+        {
+            "label": "news",
+            "examples": [
+                "what's the news", "latest headlines",
+                "tell me the news", "any breaking news",
+                "what's happening in the world"
+            ]
+        },
+        {
+            "label": "general_query",
+            "examples": [
+                "what is machine learning", "tell me about Python",
+                "who is the president", "explain quantum computing",
+                "how does the internet work", "what is AI"
+            ]
+        },
+        {
+            "label": "thanks",
+            "examples": [
+                "thank you", "thanks", "thanks a lot", "appreciate it",
+                "that was helpful", "thanks for the help"
+            ]
+        },
+        {
+            "label": "help",
+            "examples": [
+                "help", "what can you do", "how do I use this",
+                "show me your features", "I need help",
+                "what are your capabilities"
+            ]
+        }
+    ]
+}
